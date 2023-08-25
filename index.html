@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="overlay hidden">
+        <div class="message winMessage hidden">
+            <p>ПОЗДРАВЛЯЮ!</p>
+            <p>Вы победили!</p>
+        </div>
+        <div class="message loseMessage hidden">
+            <p>К сожалению вы проиграли!</p>
+        </div>
+    </div>
+    <div class="playground">
+        <div class="row">
+            <table class="table">
+                <tr>
+                    <td class="playable"> </td>
+                    <td> </td>
+                    <td class="playable"> </td>
+                    <td> </td>
+                    <td class="playable"> </td>
+                    <td> </td>
+                    <td class="playable"> </td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                </tr>
+                <tr>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                </tr>
+                <tr>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                </tr>
+                <tr>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                    <td></td>
+                    <td class="playable"></td>
+                </tr>
+            </table>
+            <div class="infobar">
+                <div class="move">
+                    <p class="playerColor"></p>
+                    <p class="movingPerson"></p>
+                    <p class="movingTimerText">Время на ход: <label class="movingTimer"></label> сек.</p>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="button giveup">Я сдаюсь!</button>
+        </div>
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
